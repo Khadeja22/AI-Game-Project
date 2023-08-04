@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WalkLeft
+  m_Name: WalkLeftUp
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 312901327, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
+      value: {fileID: -1036480754, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
     - time: 0.11111111
-      value: {fileID: 1606250621, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
+      value: {fileID: -381041026, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 312901327, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
-    - {fileID: 1606250621, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
+    - {fileID: -1036480754, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
+    - {fileID: -381041026, guid: 953f7367c2419a14b94c8d1c298e0acc, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
