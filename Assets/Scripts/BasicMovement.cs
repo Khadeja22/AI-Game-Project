@@ -6,6 +6,13 @@ public class BasicMovement : MonoBehaviour
 {
     public Animator animator;
 
+    public Rigidbody2D rb;
+    Vector3 movement;
+
+    private void Move() {
+        rb.velocity = new Vector2(movement.x, movement.y);
+    }
+
     // Update is called once per frame
     void Update()
     {
