@@ -1726,6 +1726,7 @@ GameObject:
   - component: {fileID: 182155753}
   - component: {fileID: 182155755}
   - component: {fileID: 182155754}
+  - component: {fileID: 182155756}
   m_Layer: 0
   m_Name: Student
   m_TagString: Untagged
@@ -1857,6 +1858,18 @@ CircleCollider2D:
   m_Offset: {x: 0.005, y: 0.23}
   serializedVersion: 2
   m_Radius: 0.2
+--- !u!114 &182155756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182155749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb621ed501f7e6240be1fe1db107773a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &189647249
 GameObject:
   m_ObjectHideFlags: 0
@@ -6271,7 +6284,7 @@ GameObject:
   - component: {fileID: 515937653}
   m_Layer: 0
   m_Name: Gaurd
-  m_TagString: Untagged
+  m_TagString: Gaurd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
