@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccfce20c4c3e58449b65c396406b8229
+guid: 677e87a73a2037d4fb344b4749730d1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,122 +101,110 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guard spritesheet_0
+      name: Disappearing_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 60
-        width: 98
-        height: 70
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91eb2681e2a996a4884dec0ff8b6191f
-      internalID: -1540257868
+      spriteID: 9337270b6a2a1d04d95c64c4a0f62dfe
+      internalID: 952730296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard spritesheet_1
+      name: Disappearing_1
       rect:
         serializedVersion: 2
-        x: 392
-        y: 60
-        width: 98
-        height: 70
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 105d1efc0a585ce4fb8de415f43b0117
-      internalID: -1573499471
+      spriteID: 456661ec19d2cd147ad4207c953c0dfe
+      internalID: -362057689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard spritesheet_2
+      name: Disappearing_2
       rect:
         serializedVersion: 2
-        x: 686
-        y: 60
-        width: 98
-        height: 70
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ce27d6cb1213841858834a580af216
-      internalID: -607062387
+      spriteID: 6daf3e145aee45448a71049546b25fb0
+      internalID: -2025523505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard spritesheet_3
+      name: Disappearing_3
       rect:
         serializedVersion: 2
-        x: 980
-        y: 60
-        width: 98
-        height: 70
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f0b4ae3c7a238941befae7c2b236316
-      internalID: -1261741155
+      spriteID: d9d5a50b3b584dd4b8c1e9e67c6876a2
+      internalID: 2063329138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guard spritesheet_4
+      name: Disappearing_4
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 60
-        width: 98
-        height: 70
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392236e71abe9f7439fd394b37ec919c
-      internalID: 120006554
+      spriteID: abb36dc526b1940479412d72d009d916
+      internalID: -762186218
       vertices: []
       indices: 
       edges: []
@@ -232,11 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      guard spritesheet_1: -1573499471
-      guard spritesheet_2: -607062387
-      guard spritesheet_4: 120006554
-      guard spritesheet_0: -1540257868
-      guard spritesheet_3: -1261741155
+      Disappearing_0: 952730296
+      Disappearing_3: 2063329138
+      Disappearing_1: -362057689
+      Disappearing_4: -762186218
+      Disappearing_2: -2025523505
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

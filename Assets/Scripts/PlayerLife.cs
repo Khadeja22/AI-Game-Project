@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerDeath : MonoBehaviour
+public class PlayerLife : MonoBehaviour
 {
     //uncomment animator lines once the death animation is added
-    //private Animator anim;
+    private Animator anim;
     private Rigidbody2D rb;
     
     private void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -24,8 +25,12 @@ public class PlayerDeath : MonoBehaviour
 
     private void Die()
     {
-        //anim.SetTrigger("death");
+        anim.SetTrigger("death");
         rb.bodyType = RigidbodyType2D.Static;
     }
-   
+
+    private void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
