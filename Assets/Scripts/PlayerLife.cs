@@ -8,6 +8,7 @@ public class PlayerLife : MonoBehaviour
     //uncomment animator lines once the death animation is added
     private Animator anim;
     private Rigidbody2D rb;
+    public healthScript healthScript;
     
     private void Start()
     {
@@ -23,10 +24,13 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    private void Die()
+      private void Die()
     {
         anim.SetTrigger("death");
         rb.bodyType = RigidbodyType2D.Static;
+
+        // Call the TakeDamage method from the Health script
+        healthScript.TakeDamage(1); // Assuming 1 is the damage amount
     }
 
     private void RestartLevel()

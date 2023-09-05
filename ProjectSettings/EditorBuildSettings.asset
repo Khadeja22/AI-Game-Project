@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day One Complete Screen.unity
     guid: 1c95eed6ffe3f6742872f09bdfd4c967
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Restart.unity
+    guid: 755d0366f4a6ef24b81f5fedddaa27eb
   m_configObjects: {}
